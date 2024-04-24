@@ -383,11 +383,11 @@ body.showed_menu #toggle-menu .menu__btn > span::after {
   right: 12px;
   white-space: nowrap;
 }
-.default-credit-form #inputs #ranges {
+.default-credit-form #inputs .ranges {
   display: flex;
   justify-content: space-between;
 }
-.default-credit-form #inputs #ranges span {
+.default-credit-form #inputs .ranges span {
   display: inline;
 }
 
@@ -440,23 +440,23 @@ body.main-page section:nth-child(2n + 1),
 #header-before .container > div > *:not(:last-child) {
   margin-right: 25px;
 }
-#header-before .container > div #links a {
+#header-before .container > div .socials a {
   display: inline-block;
   width: 21px;
   height: 21px;
   background-position: 50% 50%;
   background-size: 21px 21px;
 }
-#header-before .container > div #links .link-item:not(:last-child) {
+#header-before .container > div .socials .link-item:not(:last-child) {
   margin-right: 14px;
 }
-#header-before .container > div #whatsapp {
+#header-before .container > div .whatsapp {
   background-image: url("../images/links/whatsapp.svg");
 }
-#header-before .container > div #viber {
+#header-before .container > div .viber {
   background-image: url("../images/links/viber.svg");
 }
-#header-before .container > div #telegram {
+#header-before .container > div .telegram {
   background-image: url("../images/links/telegram.svg");
 }
 #header-before .container > div #phone {
@@ -1084,13 +1084,13 @@ footer #main-info {
 footer #main-info > * {
   flex-basis: 44%;
 }
-footer #left #links {
+footer #left #footer-links {
   height: 136px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-footer #left #links > a {
+footer #left #footer-links > a {
   margin-bottom: 15px;
   margin-right: 48px;
   text-decoration: none;
@@ -1120,19 +1120,19 @@ footer #right * {
 footer #right > div > *:not(:last-child) {
   margin-bottom: 26px;
 }
-footer #right #links {
+footer #right #socials {
   display: flex;
   align-items: center;
 }
-footer #right #links span:first-child {
+footer #right #socials span:first-child {
   margin-right: 30px;
 }
-footer #right #links a {
+footer #right #socials a {
   display: inline-block;
   width: 21px;
   height: 21px;
 }
-footer #right #links a:not(:last-child) {
+footer #right #socials a:not(:last-child) {
   margin-right: 16px;
 }
 footer #right #email {

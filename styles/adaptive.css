@@ -377,12 +377,12 @@
   footer #main-info {
     flex-direction: column;
   }
-  footer #left #links > a {
+  footer #left #footer-links > a {
     height: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
   }
-  footer #left #links {
+  footer #left #footer-links {
     height: 108px;
   }
   footer #main-info > *:not(:last-child) {
@@ -392,16 +392,16 @@
   footer #right > div:first-child {
     margin-bottom: 14px;
   }
-  footer #right #links span:first-child {
+  footer #right #socials span:first-child {
     margin-right: 20px;
   }
-  footer #right #links a:not(:last-child) {
+  footer #right #socials a:not(:last-child) {
     margin-right: 10px;
   }
   footer hr {
     margin: 14px 0;
   }
-  footer #left #links > a,
+  footer #left #footer-links > a,
   footer #right *,
   footer #rights {
     font-size: 12px;

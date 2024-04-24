@@ -37,13 +37,13 @@
         <div class="container">
           <span id="phone-us" class="contact-us">Заказать звонок</span>
           <div>
-            <div id="links">
+            <div class="socials">
               <a href="#" class="link-item" id="whatsapp"></a>
               <a href="#" class="link-item" id="viber"></a>
               <a href="#" class="link-item" id="telegram"></a>
             </div>
             <span id="phone">+7 (499) 647-68-79</span>
-            <span id="email">hello@byfin.io</span>
+            <span id="mail">hello@byfin.io</span>
           </div>
         </div>
       </div>
@@ -61,9 +61,9 @@
             <img src="./images/our-logo-green.svg" alt="ByFin Logo" />
           </a>
           <div id="toggle-menu">
-            <label class="menu__btn" for="menu__toggle">
+            <div class="menu__btn">
               <span></span>
-            </label>
+            </div>
           </div>
         </div>
       </header>
@@ -286,7 +286,7 @@
                   class="input-range"
                   id="credit-sum"
                 />
-                <div id="ranges">
+                <div class="ranges">
                   <span>100 тыс.</span>
                   <span>50 млн.</span>
                 </div>
@@ -305,7 +305,7 @@
                   class="input-range"
                   id="credit-rate"
                 />
-                <div id="ranges">
+                <div class="ranges">
                   <span>1 год</span>
                   <span>10 лет</span>
                 </div>
@@ -332,8 +332,8 @@
           <div class="container">
             <div>
               <ul>
-                <span class="help-title"
-                  >Это комплекс услуг,<br />включающий:</span
+                <li class="help-title"
+                  >Это комплекс услуг,<br />включающий:</li
                 >
 
                 <li class="default-text">Анализ документов</li>
@@ -358,8 +358,8 @@
 
             <div>
               <ul>
-                <span class="help-title"
-                  >Наши услуги нужны Вам<br />в следующих случаях:</span
+                <li class="help-title"
+                  >Наши услуги нужны Вам<br />в следующих случаях:</li
                 >
 
                 <li class="default-text">
@@ -470,7 +470,6 @@
             required="required"
             maxlength="50"
             autofocus="autofocus"
-            required="required"
             value="+7(___)___-__-__"
             pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"
             placeholder="+7(___)___-__-__"
@@ -495,7 +494,7 @@
       <div class="container">
         <div id="main-info">
           <div id="left" class="default-text">
-            <div id="links">
+            <div id="footer-links">
               <a href="#">О нас</a>
               <a href="#">Услуги</a>
               <a href="#">Сертификаты</a>
@@ -508,9 +507,9 @@
 
           <div id="right">
             <div>
-              <div id="links">
+              <div id="socials">
                 <span>Напишите нам</span>
-                <a href="#" id="whatsapp">
+                <a href="#" class="whatsapp">
                   <img
                     src="./images/links/whatsapp.svg"
                     alt="whatsapp"
@@ -518,7 +517,7 @@
                     width="21"
                   />
                 </a>
-                <a href="#" id="viber">
+                <a href="#" class="viber">
                   <img
                     src="./images/links/viber.svg"
                     alt="viber"
@@ -526,7 +525,7 @@
                     width="21"
                   />
                 </a>
-                <a href="#" id="telegram">
+                <a href="#" class="telegram">
                   <img
                     src="./images/links/telegram.svg"
                     alt="telegram"

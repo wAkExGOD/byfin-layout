@@ -147,7 +147,7 @@ window.addEventListener("DOMContentLoaded", function () {
 window.addEventListener("DOMContentLoaded", () => {
   const body = document.querySelector("body"),
     navLinks = document.querySelectorAll("aside#aside a"),
-    toggleMenuBtn = document.querySelector("#toggle-menu > label.menu__btn")
+    toggleMenuBtn = document.querySelector("#toggle-menu > .menu__btn")
 
   const screenWidth = window.screen.availWidth
 
