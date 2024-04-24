@@ -1,0 +1,512 @@
+/* html + body */
+@media (max-width: 1280px) {
+  html,
+  body {
+    min-width: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* specific widths */
+@media (max-width: 1500px) {
+  section#partners #banks .partner {
+    margin: 24px 40px;
+  }
+  section#partners #banks .partner:nth-child(5n) {
+    margin-right: 40px;
+  }
+  section#partners #banks .partner:nth-child(5n + 1) {
+    margin-left: 40px;
+  }
+}
+
+/* main widths */
+@media (max-width: 1280px) {
+  section#about-us .container > div {
+    width: 100%;
+  }
+  section#cash-loan .container > div:last-child,
+  section#about-us .container > div:last-child,
+  #our-help .help-image {
+    display: none;
+  }
+  section#our-services .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+  }
+  section#our-services .service-card {
+    margin-right: 0;
+    width: auto;
+  }
+  section#our-help .container > div > * {
+    width: 100%;
+  }
+  section#we-help-you .container .circle-image {
+    width: 400px;
+    height: 400px;
+  }
+  section#we-help-you .container > div:last-child {
+    display: flex;
+    align-items: center;
+  }
+  footer #left,
+  footer #right {
+    flex-direction: column;
+  }
+  footer #right > div:first-child {
+    margin-bottom: 20px;
+  }
+  form.default-credit-form #inputs > *,
+  form.default-credit-form #right > div {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header#header .container #nav-links .nav-link:not(:last-child) {
+    margin-right: 36px;
+  }
+  section#partners #banks .partner:nth-child(5n + 1) {
+    margin-left: 20px;
+  }
+  section#partners #banks .partner:nth-child(5n) {
+    margin-right: 20px;
+  }
+  section#partners #banks .partner {
+    margin: 20px;
+  }
+  section .important-info .item {
+    padding-left: 0;
+  }
+  section .important-info .item-title {
+    padding-left: 75px;
+  }
+  #calc-loan form #outputs #cost,
+  #calc-loan form #outputs #procent,
+  form.default-credit-form #outputs #procent,
+  form.default-credit-form #outputs #cost {
+    font-size: 30px;
+  }
+  form#credit-form,
+  form#credit-form-full {
+    flex-direction: column;
+  }
+  form#credit-form > #inputs,
+  form#credit-form > #outputs,
+  form.default-credit-form#credit-form-full > #left,
+  form.default-credit-form#credit-form-full > #right {
+    width: 100%;
+  }
+  form#credit-form > *:not(:last-child),
+  form#credit-form-full > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  form.default-credit-form #inputs > *,
+  form.default-credit-form #right > div {
+    height: auto;
+  }
+}
+
+@media (max-width: 930px) {
+  form.default-credit-form {
+    flex-wrap: wrap;
+  }
+  form.default-credit-form > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  form.default-credit-form #inputs,
+  form.default-credit-form #outputs,
+  .default-credit-form#credit-form-full #left {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+    padding-top: 67px;
+  }
+  footer {
+    margin-top: 20px;
+  }
+  #header-before {
+    display: none;
+  }
+  header#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 15px 20px;
+    z-index: 100;
+  }
+  header#header .container #nav-links {
+    display: none;
+  }
+  #toggle-menu {
+    display: block;
+  }
+  body section,
+  #our-help > div {
+    padding: 60px 25px;
+  }
+  section#our-services .cards {
+    grid-template-columns: 1fr;
+  }
+  #our-services .service-card {
+    width: 286px;
+  }
+  #we-help .slogan {
+    font-size: 40px;
+  }
+  #calc-loan form #outputs #cost,
+  #calc-loan form #outputs #procent {
+    display: inline;
+  }
+  form.default-credit-form #outputs,
+  form.default-credit-form#credit-form-full #right {
+    text-align: left;
+  }
+  #calc-loan form #outputs #cost::after {
+    top: 10px;
+  }
+  #our-partners .partner {
+    width: 160px;
+    height: 160px;
+    margin: 30px;
+  }
+  section#we-help-you .container .circle-image {
+    width: 300px;
+    height: 300px;
+  }
+  #our-services .service-card .card-descr {
+    padding: 36px;
+  }
+  #our-help > div {
+    height: auto;
+  }
+  #our-help .container > div:nth-child(1) ul,
+  #our-help .container > div:nth-child(2) ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  section.page h2 {
+    margin-bottom: 50px;
+  }
+  section#partners #banks .partner {
+    width: 180px;
+    height: 250px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 569px) {
+  main {
+    padding: 0;
+    padding-top: 100px;
+  }
+  header#header {
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  header#header #main-logo img {
+    width: 140px;
+  }
+  #header .container {
+    width: 100%;
+    padding: 0;
+  }
+  body aside#aside {
+    width: 75%;
+    padding-top: 88px;
+  }
+  body section,
+  #our-help > div {
+    padding: 30px 15px;
+  }
+  h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  h2,
+  #our-help .help-title,
+  section.page h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  section .important-info .item-title,
+  footer #number,
+  section#contacts #many-contacts .one-con > div:last-child span:first-child {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .container {
+    padding: 0;
+  }
+  .modal-container {
+    padding: 30px;
+  }
+  .modal-content {
+    width: 220px;
+  }
+  .modal-container .close-modal {
+    right: 14px;
+    top: 14px;
+  }
+  .modal-container .close-modal img {
+    width: 12px;
+    height: 12px;
+  }
+  .green-btn {
+    padding: 14px 20px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .default-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  #cash-loan h2 span:first-child::after,
+  #we-help-you h2 span:first-child::after {
+    content: inherit;
+  }
+  #cash-loan h2,
+  #we-help-you h2 {
+    white-space: normal;
+  }
+  #our-services h1,
+  #calc-loan h1,
+  #our-help h1,
+  #our-partners > h1,
+  #we-help-you h2,
+  #about-us h1,
+  section.page h2 {
+    margin-bottom: 20px;
+  }
+  #our-services .service-card {
+    height: 350px;
+  }
+  #our-services .service-card .card-descr {
+    padding: 20px;
+  }
+  #our-services .cards {
+    flex-direction: column;
+  }
+  #calc-loan .container > form > div {
+    padding: 20px;
+  }
+  form.default-credit-form .green-btn {
+    width: 100%;
+  }
+  form.default-credit-form .grey {
+    margin-bottom: 14px;
+  }
+  form.default-credit-form #inputs > *:not(:last-child),
+  form.default-credit-form #right > *:not(:last-child),
+  #calc-loan #outputs > *:not(:last-child) {
+    margin-bottom: 18px;
+  }
+  form.default-credit-form #outputs #procent,
+  form.default-credit-form #outputs #cost {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #calc-loan form #outputs #cost::after {
+    right: 10px;
+    top: 4px;
+  }
+  #calc-loan form #outputs #procent::after {
+    right: 4px;
+  }
+  #our-help .container {
+    flex-wrap: wrap;
+  }
+  #our-help .container > div {
+    flex-basis: 100%;
+  }
+  #our-help .container > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  #our-help .help-title {
+    margin-bottom: 16px;
+  }
+  #our-help ul li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  #our-partners .partner,
+  section#partners #banks .partner {
+    width: 126px;
+    height: 126px;
+    margin: 8px;
+  }
+  section#partners #banks .partner:nth-child(5n + 1) {
+    margin-left: 8px;
+  }
+  section#partners #banks .partner:nth-child(5n) {
+    margin-right: 8px;
+  }
+  section#we-help-you .container > div:last-child {
+    display: none;
+  }
+  #we-help-you .container > * {
+    flex-basis: 100%;
+  }
+  #we-help-you .default-text:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  #we-help-you button {
+    margin-top: 20px;
+  }
+  #about-us span:not(:last-child) {
+    margin-bottom: 18px;
+  }
+  section.page #link-back img {
+    margin-right: 16px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer #main-info {
+    flex-direction: column;
+  }
+  footer #left #links > a {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  footer #left #links {
+    height: 108px;
+  }
+  footer #main-info > *:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  footer #right > div > *:not(:last-child),
+  footer #right > div:first-child {
+    margin-bottom: 14px;
+  }
+  footer #right #links span:first-child {
+    margin-right: 20px;
+  }
+  footer #right #links a:not(:last-child) {
+    margin-right: 10px;
+  }
+  footer hr {
+    margin: 14px 0;
+  }
+  footer #left #links > a,
+  footer #right *,
+  footer #rights {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  #our-services .service-card .card-title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #our-services .service-card .card-descr {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  form.default-credit-form .grey {
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .default-credit-form #inputs > div span {
+    font-size: 12px;
+  }
+  form.default-credit-form #outputs,
+  form.default-credit-form#credit-form-full #right {
+    width: 100%;
+  }
+  .default-credit-form#credit-form-full #right input,
+  .default-credit-form .show {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+  form.default-credit-form #inputs > *,
+  form.default-credit-form #right > div {
+    height: auto;
+  }
+  form.default-credit-form #inputs {
+    margin-bottom: 10px;
+  }
+  form.default-credit-form#credit-form-full #outputs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  form.default-credit-form#credit-form-full #outputs #cost::after {
+    right: -30px;
+    top: 4px;
+  }
+  form.default-credit-form#credit-form-full #outputs #procent::after {
+    right: -32px;
+  }
+  section .important-info {
+    flex-direction: column;
+  }
+  section .important-info .item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  section .important-info .item .decor-icon {
+    display: none;
+  }
+  section .important-info .item-title {
+    margin-bottom: 10px;
+    padding-left: 0;
+    text-align: center;
+  }
+  section .important-info .item .item-li,
+  section .important-info .item li {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  section .important-info .item .item-li:not(:last-child),
+  section .important-info .item li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  section#partners .default-text {
+    margin-bottom: 20px;
+  }
+  section#partners #banks .partner {
+    height: 146px;
+    padding: 8px;
+  }
+  section#partners #banks .partner .bank-name,
+  section#contacts #many-contacts .one-con > div:last-child span:last-child {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  section#contacts .container > #about-container {
+    flex-direction: column;
+  }
+  section#contacts #many-contacts .one-con:not(:last-child),
+  section#contacts #many-contacts {
+    margin-bottom: 26px;
+  }
+  section#contacts #many-contacts .one-con > div:first-child {
+    display: none;
+  }
+  section#contacts #messengers #mess-title {
+    margin-bottom: 16px;
+  }
+  section#contacts #messengers #mess-links {
+    justify-content: flex-start;
+  }
+  section#contacts #messengers #mess-links a:not(:last-child) {
+    margin-right: 16px;
+  }
+  section#contacts {
+    margin-bottom: 20px;
+  }
+}
