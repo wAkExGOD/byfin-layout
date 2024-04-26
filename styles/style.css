@@ -460,9 +460,15 @@ body.main-page section:nth-child(2n + 1),
   background-image: url("../images/links/telegram.svg");
 }
 #header-before .container > div #phone {
+  text-decoration: none;
+  color: black;
   font-family: "avantgardegothicc-bold";
   font-size: 20px;
   line-height: 24px;
+}
+#header-before .container > div #mail {
+  text-decoration: none;
+  color: black;
 }
 #header {
   background: #ffffff;
@@ -1103,6 +1109,7 @@ footer #left {
   justify-content: space-between;
 }
 footer #number {
+  text-decoration: none;
   font-family: "avantgardegothicc-bold";
   font-size: 20px;
   line-height: 24px;
@@ -1136,6 +1143,7 @@ footer #right #socials a:not(:last-child) {
   margin-right: 16px;
 }
 footer #right #email {
+  text-decoration: none;
   padding-left: 32px;
   position: relative;
 }
